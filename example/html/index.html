@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <script src="../../dist/noTelp.js"></script>
+    </head>
+    <body>
+        <t1>Hola</t1>
+        <table>
+            <tr>
+                <td id="telp1"></td>
+                <td>:</td>
+                <td id="telp1-operator"></td>
+            </tr>
+            <tr>
+                <td id="telp2"></td>
+                <td>:</td>
+                <td id="telp2-operator"></td>
+            </tr>
+            <tr>
+                <td id="telp3"></td>
+                <td>:</td>
+                <td id="telp3-operator"></td>
+            </tr>
+        </table>
+    </body>
+    <script>
+        console.log('JS is working');
+
+        var telp1 = '08123456789';
+        var telp2 = '+628567890987';
+        var telp3 = '0213553535';
+
+        document.getElementById("telp1").textContent = telp1;
+        document.getElementById("telp2").textContent = telp2;
+        document.getElementById("telp3").textContent = telp3;
+
+        const { getOperator } = window.NoTelp;
+
+        var operatorTelp1 = getOperator(telp1);
+        var operatorTelp2 = getOperator(telp2);
+        var operatorTelp3 = getOperator(telp3);
+
+        console.log('operatorTelp1 : ',operatorTelp1);
+        console.log('operatorTelp2 : ',operatorTelp2);
+        console.log('operatorTelp3 : ',operatorTelp3);
+
+        document.getElementById("telp1-operator").textContent = operatorTelp1.operator + ' - ' + operatorTelp1.card;
+        document.getElementById("telp2-operator").textContent = operatorTelp2.operator + ' - ' + operatorTelp2.card;
+        document.getElementById("telp3-operator").textContent = operatorTelp3.operator + ' - ' + operatorTelp3.card;
+
+    </script>
+</html>

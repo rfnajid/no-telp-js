@@ -1,0 +1,29 @@
+{
+  "name": "no-telp",
+  "version": "1.0.0",
+  "description": "Library untuk mencari tahu operator pada nomer telpon Indonesia",
+  "author": "Ridhazis Faranto Najid",
+  "homepage": "https://github.com/rfnajid/no-telp-js#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfnajid/no-telp-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rfnajid/no-telp-js/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "build-test": "npm run build && npm run test"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
