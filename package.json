@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Library untuk mencari tahu operator pada nomer telpon Indonesia",
   "author": "Ridhazis Faranto Najid",
+  "keywords":["Indonesia"],
   "homepage": "https://github.com/rfnajid/no-telp-js#readme",
   "license": "MIT",
   "repository": {
@@ -12,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/rfnajid/no-telp-js/issues"
   },
-  "main": "index.js",
+  "main": "noTelp.js",
   "files": [
     "/dist"
   ],
