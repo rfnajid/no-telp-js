@@ -1,6 +1,6 @@
 {
   "name": "no-telp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library untuk mencari tahu operator pada nomer telpon Indonesia",
   "author": "Ridhazis Faranto Najid",
   "keywords":["Indonesia"],
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/rfnajid/no-telp-js/issues"
   },
-  "main": "noTelp.js",
+  "main": "dist/noTelp.js",
   "files": [
     "/dist"
   ],
