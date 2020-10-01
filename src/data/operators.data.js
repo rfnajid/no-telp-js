@@ -20,7 +20,7 @@ export const operators = [
         "code": [21,23,52,53]
     },
     {
-        "name": "by.U",
+        "name": "by.U / Kartu As",
         "operator": "Telkomsel",
         "code": [51]
     },
@@ -52,7 +52,7 @@ export const operators = [
     {
         "name": "XL",
         "operator": "XL Axiata",
-        "code": [17,18,19,59,77,78]
+        "code": [17,18,19,59,77,78,79]
     },
     {
         "name": "Axis",
@@ -75,6 +75,16 @@ export const operators = [
     {
         "name": "Net1",
         "operator": "Net1",
-        "code": [27, 28]
+        "code": [27]
+    },
+    {
+        "name": "Ceria",
+        "operator": "Sampoerna Telkom",
+        "code": [28]
+    },
+    {
+        "name": "Mobi",
+        "operator": "Mobile-8",
+        "code": [88,89]
     }
 ];
