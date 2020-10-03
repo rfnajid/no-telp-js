@@ -7,12 +7,7 @@ export const operators = [
     {
         "name": "simPATI",
         "operator": "Telkomsel",
-        "code": [12,13,21]
-    },
-    {
-        "name": "LOOP",
-        "operator": "Telkomsel",
-        "code": [22]
+        "code": [12,13,21,22]
     },
     {
         "name": "KARTU As",
@@ -83,8 +78,8 @@ export const operators = [
         "code": [28]
     },
     {
-        "name": "Mobi",
-        "operator": "Mobile-8",
-        "code": [88,89]
-    }
+        "name": "BYRU",
+        "operator": "BYRU",
+        "code": [68]
+    },
 ];
