@@ -1,9 +1,10 @@
 
 # no-telp-js
+[![MIT License][license-image]][license] [![NPM version][npm-version-image]][npm-url] [![CircleCI Build Status][circleci-image]][circleci-url]
 
 Library JS untuk validasi &amp; mengecek operator nomor telepon Indonesia 🇮🇩
 
-Operator yang disupport :
+### Operator yang disupport :
 
  - Telkomsel
 	 - kartuHalo
@@ -70,9 +71,13 @@ Lebih lengkapnya bisa dilihat di folder [example](https://github.com/rfnajid/no-
 
 https://id.wikipedia.org/wiki/Daftar_kode_telepon_di_Indonesia
 
-### License
-[MIT](https://github.com/rfnajid/no-telp-js/blob/master/LICENSE)
-
 ##
 
     Developed with ❤️ from SUB
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg
+[license]: license.md
+[npm-url]: https://npmjs.org/package/no-telp
+[npm-version-image]: https://badge.fury.io/js/no-telp.svg
+[circleci-image]: https://circleci.com/gh/rfnajid/no-telp-js.svg?style=shield
+[circleci-url]: https://circleci.com/gh/rfnajid/no-telp-js
