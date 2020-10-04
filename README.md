@@ -1,7 +1,7 @@
 
 # no-telp-js
 
-Library JS untuk validasi &amp; mengecek operator nomor telepon Indonesia
+Library JS untuk validasi &amp; mengecek operator nomor telepon Indonesia 🇮🇩
 
 Operator yang disupport :
 
@@ -21,17 +21,25 @@ Operator yang disupport :
 	- Axis
 - 3
 - Smartfren
-- Net1
+- Net1 (Ceria)
+- ByRU
 
 ### Instalasi
+
+NPM :
+
+    npm install no-telp
+
 
 Browser :
 
     <script src="noTelp.js"></script>
 
-NPM :
+CDN :
 
-    npm install no-telp
+	<script src="https://cdn.jsdelivr.net/npm/no-telp"></script>
+
+[Lebih Lengkapnya](https://cdn.jsdelivr.net/npm/no-telp/)
 
 ###  Penggunaan
 
@@ -50,6 +58,13 @@ Return value  :
 **valid**: apakah nomer valid
 
 Lebih lengkapnya bisa dilihat di folder [example](https://github.com/rfnajid/no-telp-js/tree/master/example)
+
+### Showcase
+- [Cek Operator](http://cek-operator.rfnaj.id)
+
+### Pengembangan Selanjutnya
+☐ Support nomer telepon rumahan
+☐ Support operator luar negeri 🌎
 
 ### Referensi
 

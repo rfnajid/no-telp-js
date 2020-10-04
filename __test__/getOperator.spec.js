@@ -26,6 +26,17 @@ describe("Expected Success Scenario", () => {
         expect(getOperator(no)).toEqual(expected);
     });
 
+    test("Test Loop", () => {
+        const no = "082233113030";
+        const expected = {
+            valid: true,
+            message: "VALID",
+            card: "LOOP",
+            operator: "Telkomsel"
+        }
+        expect(getOperator(no)).toEqual(expected);
+    });
+
     test("Test Kartu As", () => {
         const no = "082311992694";
         const expected = {
@@ -129,7 +140,7 @@ describe("Expected Success Scenario", () => {
         expect(getOperator(no)).toEqual(expected);
     });
 
-    // THREE
+    // 3 / THREE
 
     test("Test 3", () =>{
         const no = "+62896 18 47 47 47";
@@ -168,28 +179,15 @@ describe("Expected Success Scenario", () => {
         expect(getOperator(no)).toEqual(expected);
     });
 
-    // Ceria
+    // ByRU
 
-    test("Test Ceria", () => {
-        const no = "082833765289";
-        const expected = {
-            valid: true,
-            message: "VALID",
-            card: "Ceria",
-            operator: "Sampoerna Telkom"
-        }
-        expect(getOperator(no)).toEqual(expected);
-    })
-
-    // Mobi
-
-    test("Test BYRU", () => {
+    test("Test ByRU", () => {
         const no = "62868 3376 5289";
         const expected = {
             valid: true,
             message: "VALID",
-            card: "BYRU",
-            operator: "BYRU"
+            card: "ByRU",
+            operator: "ByRU"
         }
         expect(getOperator(no)).toEqual(expected);
     })
